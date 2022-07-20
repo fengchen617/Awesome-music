@@ -1,0 +1,8 @@
+ext{
+    androidCompileSdk = 30
+    packageNames ="com.android.awesome_music"
+    androidMinSdk =21
+    androidTargetSdk =30
+    versionCode =1
+    versionName ="1.0"
+}
