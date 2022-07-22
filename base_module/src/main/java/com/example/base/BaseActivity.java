@@ -5,12 +5,13 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModel;
 
 import com.example.utils.SystemUiUtils;
 
 
 //基类 充当所有活动父类做公共处理
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity<VM extends ViewModel> extends AppCompatActivity {
 
   protected abstract int getLayout();
   protected abstract int getWindowBarColor();
